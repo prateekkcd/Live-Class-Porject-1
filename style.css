@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.navbar-container {
+    margin: 46px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    margin-left: 48px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li {
+    margin: 0 28px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+.list li:hover {
+    border-bottom: 2px solid #000000;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.button-group div {
+    display: inline;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.nav-button {
+    color: #505050;
+    padding: 4px 45px;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    background: transparent;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.hero-container {
+    /* height: 100%; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+img[alt="person-hero-iamge"] {
+    width: 95%;
+}
+
+.square {
+    position: absolute;
+    bottom: -70px;
+    left: 12%;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    left: 94%;
+}
+
+.globe {
+    position: absolute;
+    top: -30px;
+    left: 58%;
+}
+
+.hero-container-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.hero-heading {
+    font-size: 60px;
+    margin-top: 130px;
+}
+
+.hero-description {
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -40px;
+}
+
+.button-email {
+    font-family: inherit;
+    font-size: 20px;
+    color: #505050;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 12px;
+}
+
+.button-join {
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 17px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;;
+    color: #505050;
+}
+
+.icons span img {
+    margin: 0 10px;
+}
